@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+:root {
+    
+    --brand-purple: #6943FF;
+    --brand-white: #FAF9FA;
+    --brand-lightgray: #DDDBE1;
+    --brand-darkgray: #353535;
+    
+    --l-header: #5A537B;
+    --d-header: #CCC1FF;
+    
+    --purple-1: #e7e0ff;
+    --purple-2: #B295FF;
+    --purple-3: #5536d1;
+    --purple-4: #472dad;  
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: var(--brand-purple);
+    height: 330px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+main {
+    background-color: var(--brand-lightgray);
+    position: absolute;
+    top: 330px;
+    width: 100%;
+}
+
+section {
+    background-color: var(--brand-white);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h1 {
+    font-size: 28px;
+    color: var(--brand-white);
+    font-family: 'Inter', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 38px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: var(--l-header);
+    line-height: 20px;
+    padding-top: 31px;
+}
+
+h4 {
+    color: var(--brand-white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline;
+}
+
+p {
+    color: var(--brand-darkgray);
+    line-height: 20px;
+    padding: 0px 10px 24px 10px;
+}
+
+button {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--brand-white);
+    color: var(--brand-purple);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter';
+    width: 117px;
+    height: 42px;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: var(--purple-2);
+    box-shadow: 0px 0px 4px var(--purple-4);   
+    color: var(--purple-4);
+}
+
+button:active {
+    background-color: var(--purple-3);
+    color: var(--brand-white);
+}
+
+#input-el {
+    font-size: 58px;
+    width: 117px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px solid var(--purple-2);
+    background-color: var(--brand-purple);
+    color: var(--brand-white);
+    text-align: center;
+    font-weight: 800;
+}
+
+.dec-place-ctrl {
+    margin: 25px auto 0px auto;
+}
+
+#dec-place-input {
+    color: var(--brand-white);
+    background-color: var(--purple-3);
+    text-align: right;
+    width: 30px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    padding-inline-end: 8px;
+}
+
+#dec-place-input:hover {
+    background-color: var(--purple-4);
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    display: none;
+}
+

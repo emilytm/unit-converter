@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="input-el" value="0" type="number">
+            <button id="convert-btn">Convert</button>
+            <div class="dec-place-ctrl">
+                <input id="dec-place-input" value="3" type="number">
+                <h4>Decimal places</h4>
+            </div>
+        </header>
+        <main>
+            <section class="unit">
+                <h2>Length (Meter/Feet)</h2>
+                <p>
+                    <span id="amt-len-m">1 meter</span> = 
+                    <span id="result-len-ft">3.281 feet</span> | 
+                    <span id="amt-len-ft">1 foot</span> = 
+                    <span id="result-len-m">0.305 meters</span>
+                </p>
+            </section>
+            <section class="unit">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p>
+                    <span id="amt-vol-l">1 liter</span> = 
+                    <span id="result-vol-gal">0.264 gallons</span> | 
+                    <span id="amt-vol-gal">1 gallon</span> = 
+                    <span id="result-vol-l">4.546 liters</span>
+                </p>
+            </section>
+            <section class="unit">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p>
+                    <span id="amt-mass-kg">1 kilogram</span> = 
+                    <span id="result-mass-lb">2.204 pounds</span> | 
+                    <span id="amt-mass-lb">1 pound</span> = 
+                    <span id="result-mass-kg">0.454 kilograms</span>
+                </p>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
